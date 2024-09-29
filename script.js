@@ -15,7 +15,7 @@ let loadNextImage = function () {
 
 let setImage = function (currentImage) {
 	document.querySelector('.image').src = `images/${currentImage}.jpg`;
-	document.querySelector('body').style.backgroundImage = `url(images/${currentImage}.jpg)`;
+	document.querySelector('body').style.backgroundImage = `url(/images/${currentImage}.jpg)`;
 };
 
 document.querySelector('.btn-prev').addEventListener('click', loadPreviousImage);
