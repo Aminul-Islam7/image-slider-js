@@ -18,7 +18,7 @@ let loadNextImage = function () {
 
 let setImage = function (fileName) {
 	document.querySelector('.image').src = `images/${fileName}`; // updates the slider image according to selected filename
-	document.querySelector('body').style.backgroundImage = `url(/images/${fileName})`; // similarly updates the backdrop image
+	document.querySelector('body').style.backgroundImage = `url(images/${fileName})`; // similarly updates the backdrop image
 };
 
 // Click actions of navigation buttons
